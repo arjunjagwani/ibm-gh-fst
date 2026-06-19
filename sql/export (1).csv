@@ -1,0 +1,151 @@
+"COUNTRY_NAME","CITY","DEPARTMENT_NAME","EMPLOYEE_ID","FIRST_NAME","LAST_NAME","MGR_FIRST","MGR_LAST","MGR_ID"
+"United States of America","Seattle","Executive",100,"Steven","King",,,
+"United States of America","Seattle","Executive",101,"Neena","Yang","Steven","King",100
+"United States of America","Seattle","Executive",102,"Lex","Garcia","Steven","King",100
+"United States of America","Southlake","IT",103,"Alexander","James","Lex","Garcia",102
+"United States of America","Southlake","IT",104,"Bruce","Miller","Alexander","James",103
+"United States of America","Southlake","IT",105,"David","Williams","Alexander","James",103
+"United States of America","Southlake","IT",106,"Valli","Jackson","Alexander","James",103
+"United States of America","Southlake","IT",107,"Diana","Nguyen","Alexander","James",103
+"United States of America","Seattle","Finance",108,"Nancy","Gruenberg","Neena","Yang",101
+"United States of America","Seattle","Finance",109,"Daniel","Faviet","Nancy","Gruenberg",108
+"United States of America","Seattle","Finance",110,"John","Chen","Nancy","Gruenberg",108
+"United States of America","Seattle","Finance",111,"Ismael","Sciarra","Nancy","Gruenberg",108
+"United States of America","Seattle","Finance",112,"Jose Manuel","Urman","Nancy","Gruenberg",108
+"United States of America","Seattle","Finance",113,"Luis","Popp","Nancy","Gruenberg",108
+"United States of America","Seattle","Purchasing",114,"Den","Li","Steven","King",100
+"United States of America","Seattle","Purchasing",115,"Alexander","Khoo","Den","Li",114
+"United States of America","Seattle","Purchasing",116,"Shelli","Baida","Den","Li",114
+"United States of America","Seattle","Purchasing",117,"Sigal","Tobias","Den","Li",114
+"United States of America","Seattle","Purchasing",118,"Guy","Himuro","Den","Li",114
+"United States of America","Seattle","Purchasing",119,"Karen","Colmenares","Den","Li",114
+"United States of America","South San Francisco","Shipping",120,"Matthew","Weiss","Steven","King",100
+"United States of America","South San Francisco","Shipping",121,"Adam","Fripp","Steven","King",100
+"United States of America","South San Francisco","Shipping",122,"Payam","Kaufling","Steven","King",100
+"United States of America","South San Francisco","Shipping",123,"Shanta","Vollman","Steven","King",100
+"United States of America","South San Francisco","Shipping",124,"Kevin","Mourgos","Steven","King",100
+"United States of America","South San Francisco","Shipping",125,"Julia","Nayer","Matthew","Weiss",120
+"United States of America","South San Francisco","Shipping",126,"Irene","Mikkilineni","Matthew","Weiss",120
+"United States of America","South San Francisco","Shipping",127,"James","Landry","Matthew","Weiss",120
+"United States of America","South San Francisco","Shipping",128,"Steven","Markle","Matthew","Weiss",120
+"United States of America","South San Francisco","Shipping",129,"Laura","Bissot","Adam","Fripp",121
+"United States of America","South San Francisco","Shipping",130,"Mozhe","Atkinson","Adam","Fripp",121
+"United States of America","South San Francisco","Shipping",131,"James","Marlow","Adam","Fripp",121
+"United States of America","South San Francisco","Shipping",132,"TJ","Olson","Adam","Fripp",121
+"United States of America","South San Francisco","Shipping",133,"Jason","Mallin","Payam","Kaufling",122
+"United States of America","South San Francisco","Shipping",134,"Michael","Rogers","Payam","Kaufling",122
+"United States of America","South San Francisco","Shipping",135,"Ki","Gee","Payam","Kaufling",122
+"United States of America","South San Francisco","Shipping",136,"Hazel","Philtanker","Payam","Kaufling",122
+"United States of America","South San Francisco","Shipping",137,"Renske","Ladwig","Shanta","Vollman",123
+"United States of America","South San Francisco","Shipping",138,"Stephen","Stiles","Shanta","Vollman",123
+"United States of America","South San Francisco","Shipping",139,"John","Seo","Shanta","Vollman",123
+"United States of America","South San Francisco","Shipping",140,"Joshua","Patel","Shanta","Vollman",123
+"United States of America","South San Francisco","Shipping",141,"Trenna","Rajs","Kevin","Mourgos",124
+"United States of America","South San Francisco","Shipping",142,"Curtis","Davies","Kevin","Mourgos",124
+"United States of America","South San Francisco","Shipping",143,"Randall","Matos","Kevin","Mourgos",124
+"United States of America","South San Francisco","Shipping",144,"Peter","Vargas","Kevin","Mourgos",124
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",145,"John","Singh","Steven","King",100
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",146,"Karen","Partners","Steven","King",100
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",147,"Alberto","Errazuriz","Steven","King",100
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",148,"Gerald","Cambrault","Steven","King",100
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",149,"Eleni","Zlotkey","Steven","King",100
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",150,"Sean","Tucker","John","Singh",145
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",151,"David","Bernstein","John","Singh",145
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",152,"Peter","Hall","John","Singh",145
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",153,"Christopher","Olsen","John","Singh",145
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",154,"Nanette","Cambrault","John","Singh",145
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",155,"Oliver","Tuvault","John","Singh",145
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",156,"Janette","King","Karen","Partners",146
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",157,"Patrick","Sully","Karen","Partners",146
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",158,"Allan","McEwen","Karen","Partners",146
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",159,"Lindsey","Smith","Karen","Partners",146
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",160,"Louise","Doran","Karen","Partners",146
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",161,"Sarath","Sewall","Karen","Partners",146
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",162,"Clara","Vishney","Alberto","Errazuriz",147
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",163,"Danielle","Greene","Alberto","Errazuriz",147
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",164,"Mattea","Marvins","Alberto","Errazuriz",147
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",165,"David","Lee","Alberto","Errazuriz",147
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",166,"Sundar","Ande","Alberto","Errazuriz",147
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",167,"Amit","Banda","Alberto","Errazuriz",147
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",168,"Lisa","Ozer","Gerald","Cambrault",148
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",169,"Harrison","Bloom","Gerald","Cambrault",148
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",170,"Tayler","Fox","Gerald","Cambrault",148
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",171,"William","Smith","Gerald","Cambrault",148
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",172,"Elizabeth","Bates","Gerald","Cambrault",148
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",173,"Sundita","Kumar","Gerald","Cambrault",148
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",174,"Ellen","Abel","Eleni","Zlotkey",149
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",175,"Alyssa","Hutton","Eleni","Zlotkey",149
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",176,"Jonathon","Taylor","Eleni","Zlotkey",149
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",177,"Jack","Livingston","Eleni","Zlotkey",149
+,,,178,"Kimberely","Grant","Eleni","Zlotkey",149
+"United Kingdom of Great Britain and Northern Ireland","Oxford","Sales",179,"Charles","Johnson","Eleni","Zlotkey",149
+"United States of America","South San Francisco","Shipping",180,"Winston","Taylor","Matthew","Weiss",120
+"United States of America","South San Francisco","Shipping",181,"Jean","Fleaur","Matthew","Weiss",120
+"United States of America","South San Francisco","Shipping",182,"Martha","Sullivan","Matthew","Weiss",120
+"United States of America","South San Francisco","Shipping",183,"Girard","Geoni","Matthew","Weiss",120
+"United States of America","South San Francisco","Shipping",184,"Nandita","Sarchand","Adam","Fripp",121
+"United States of America","South San Francisco","Shipping",185,"Alexis","Bull","Adam","Fripp",121
+"United States of America","South San Francisco","Shipping",186,"Julia","Dellinger","Adam","Fripp",121
+"United States of America","South San Francisco","Shipping",187,"Anthony","Cabrio","Adam","Fripp",121
+"United States of America","South San Francisco","Shipping",188,"Kelly","Chung","Payam","Kaufling",122
+"United States of America","South San Francisco","Shipping",189,"Jennifer","Dilly","Payam","Kaufling",122
+"United States of America","South San Francisco","Shipping",190,"Timothy","Venzl","Payam","Kaufling",122
+"United States of America","South San Francisco","Shipping",191,"Randall","Perkins","Payam","Kaufling",122
+"United States of America","South San Francisco","Shipping",192,"Sarah","Bell","Shanta","Vollman",123
+"United States of America","South San Francisco","Shipping",193,"Britney","Everett","Shanta","Vollman",123
+"United States of America","South San Francisco","Shipping",194,"Samuel","McLeod","Shanta","Vollman",123
+"United States of America","South San Francisco","Shipping",195,"Vance","Jones","Shanta","Vollman",123
+"United States of America","South San Francisco","Shipping",196,"Alana","Walsh","Kevin","Mourgos",124
+"United States of America","South San Francisco","Shipping",197,"Kevin","Feeney","Kevin","Mourgos",124
+"United States of America","South San Francisco","Shipping",198,"Donald","OConnell","Kevin","Mourgos",124
+"United States of America","South San Francisco","Shipping",199,"Douglas","Grant","Kevin","Mourgos",124
+"United States of America","Seattle","Administration",200,"Jennifer","Whalen","Neena","Yang",101
+"Canada","Toronto","Marketing",201,"Michael","Martinez","Steven","King",100
+"Canada","Toronto","Marketing",202,"Pat","Davis","Michael","Martinez",201
+"United Kingdom of Great Britain and Northern Ireland","London","Human Resources",203,"Susan","Jacobs","Neena","Yang",101
+"Germany","Munich","Public Relations",204,"Hermann","Brown","Neena","Yang",101
+"United States of America","Seattle","Accounting",205,"Shelley","Higgins","Neena","Yang",101
+"United States of America","Seattle","Accounting",206,"William","Gietz","Shelley","Higgins",205
+"United States of America","Seattle","IT Support",,,,,,
+"United States of America","Seattle","Benefits",,,,,,
+"United States of America","Seattle","Payroll",,,,,,
+"United States of America","Seattle","Construction",,,,,,
+"United States of America","Seattle","Government Sales",,,,,,
+"United States of America","Seattle","Retail Sales",,,,,,
+"United States of America","Seattle","Contracting",,,,,,
+"United States of America","Seattle","Recruiting",,,,,,
+"United States of America","Seattle","Control And Credit",,,,,,
+"United States of America","Seattle","NOC",,,,,,
+"United States of America","Seattle","Treasury",,,,,,
+"Australia","Sydney",,,,,,,
+"Singapore","Singapore",,,,,,,
+"Italy","Roma",,,,,,,
+"United States of America","South Brunswick",,,,,,,
+"United Kingdom of Great Britain and Northern Ireland","Stretford",,,,,,,
+"Switzerland","Geneva",,,,,,,
+"Netherlands","Utrecht",,,,,,,
+"Mexico","Mexico City",,,,,,,
+"Brazil","Sao Paulo",,,,,,,
+"Zambia",,,,,,,,
+"Argentina",,,,,,,,
+"Nigeria",,,,,,,,
+"Egypt",,,,,,,,
+"Malaysia",,,,,,,,
+"Denmark",,,,,,,,
+"France",,,,,,,,
+"Israel",,,,,,,,
+"Zimbabwe",,,,,,,,
+"Kuwait",,,,,,,,
+"Belgium",,,,,,,,
+"Italy","Venice",,,,,,,
+"Canada","Whitehorse",,,,,,,
+"Japan","Hiroshima",,,,,,,
+"Switzerland","Bern",,,,,,,
+"Japan","Tokyo",,,,,,,
+"China","Beijing",,,,,,,
+"India","Bombay",,,,,,,
+"United States of America","Seattle","Manufacturing",,,,,,
+"United States of America","Seattle","Corporate Tax",,,,,,
+"United States of America","Seattle","IT Helpdesk",,,,,,
+"United States of America","Seattle","Shareholder Services",,,,,,
+"United States of America","Seattle","Operations",,,,,,
