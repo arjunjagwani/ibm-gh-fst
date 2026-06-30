@@ -1,0 +1,79 @@
+Feature: Place order on the Amazon website.
+@SmokeTest
+Scenario: Validate if the guest user is able to add a product to cart.
+Given user is on the Amazon website
+When user searches a product
+Then user should be able to view product information related to product searched
+And user click on add to cart button
+Then user verifies if the product is added to cart
+
+Scenario Outline: Validate if a registered user is able to place an order.
+Given user is on the Amazon website
+When user logs in with "<Username>" and "<Password>"
+Then user should be able to view homepage
+When user searches for "<ProductID>"
+Then user should be on the product information page
+And user tried to add the product to cart
+Then product should be added to cart
+When user navigates to order confirmation page via express checkout option
+Then order should be placed successfully along with order confirmation id being generated
+
+Examples:
+| Username | Password | ProductID |
+| username1 | password1 | 123     |
+| username2 | password2 | 456     |
+
+Feature File
+
+    Scenario symbolizes and acts as one or more user perspectives. Each scenario is considered a test case.
+    @SmokeTest is a tag. This section is a simple initial test case.
+    Test data table provided in the Example section replace the variables created the Scenario Outline making each individual row in a table as a unique Scenario.
+    Example section contains the different values that will be used in place of <Username>, <Password>, and <ProductID>
+    First row is considered as table heading and always ignored.
+    Feature files are saved with the extension .feature
+
+Step Definition
+
+    Step Definition file consists of code which defines the steps for annotations created in feature file.
+    Step definition file is basically a .java file that contains the actions that should be performed when a string in the Feature File matches the string in the Step Definition file.
+    It acts like the glue between the Feature file and the Test Runner.
+    An annotation followed by step defined in patterns with the help of regular expression would help in linking the step definition file to steps in feature file.
+    The Step Definitions are case sensitive.
+
+Step Definition
+
+Sample step definition code sample for the Feature File would be written as:
+
+@Given("user is on the Amazon website")
+public void user_is_on_Home_Page() {
+	driver = new FirefoxDriver();
+	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	driver.get("http://www.amazon.in");
+}
+
+@When("user searches a product")
+	public void user_searches_a_product() {
+	driver.findElement(By.xpath(".//*[@id='account']/a")).click();
+}
+
+@When("user logins in with {string} and {string}")
+    public void user_searches_a_product(String username, String password) {
+    driver.findElement(By.id("username")).sendKeys("username");
+    driver.findElement(By.id("password")).sendKeys("password");
+}
+
+Writing Step Definitions
+
+The patterns in the Step Definition can also be written as follows:
+
+In the above snippet, the pattern can be used to match the following statement in the Feature file:
+
+@Given(".*Amazon.*")
+public void user_is_on_Home_Page() {
+    //Actions to perform
+}
+
+Given user is on the Amazon website
+
+4 . 3
+Feature File. Example:. Feature : Place order on the Amazon website. @SmokeTest Scenario : Validate if the guest user is able to add a product to cart. Given user is on the Amazon website When user searches a product Then user should be able to view product information related to product searched And user click on add to cart button Then user verifies if the product is added to cart Scenario Outline : Validate if a registered user is able to place an order. Given user is on the Amazon website When user logs in with "<Username>" and "<Password>" Then user should be able to view homepage When user searches for "<ProductID>" Then user should be on the product information page And user tried to add the product to cart Then product should be added to cart When user navigates to order confirmation page via express checkout option Then order should be placed successfully along with order confirmation id being generated Examples : | Username | Password | ProductID | | username1 | password1 | 123 | | username2 | password2 | 456 |.
